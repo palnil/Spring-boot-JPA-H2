@@ -17,3 +17,10 @@ spring:
    show-sql: true
    hibernate:
       ddl-auto: update
+      
+      
+logging:
+  level:
+    com.bookstore.data: debug
+  file:
+    C:\temp\hello\hello.log
